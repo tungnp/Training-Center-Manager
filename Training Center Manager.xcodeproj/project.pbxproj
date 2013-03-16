@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		904D7D9616F48B5B0084019B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904D7D9516F48B5B0084019B /* UIKit.framework */; };
+		904D7D9816F48B5B0084019B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904D7D9716F48B5B0084019B /* Foundation.framework */; };
+		904D7D9A16F48B5B0084019B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904D7D9916F48B5B0084019B /* CoreGraphics.framework */; };
+		904D7DA016F48B5B0084019B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 904D7D9E16F48B5B0084019B /* InfoPlist.strings */; };
+		904D7DA216F48B5B0084019B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D7DA116F48B5B0084019B /* main.m */; };
+		904D7DA616F48B5B0084019B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D7DA516F48B5B0084019B /* AppDelegate.m */; };
+		904D7DA816F48B5C0084019B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 904D7DA716F48B5C0084019B /* Default.png */; };
+		904D7DAA16F48B5C0084019B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 904D7DA916F48B5C0084019B /* Default@2x.png */; };
+		904D7DAC16F48B5C0084019B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 904D7DAB16F48B5C0084019B /* Default-568h@2x.png */; };
+		904D7DAF16F48B5C0084019B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D7DAE16F48B5C0084019B /* ViewController.m */; };
+		904D7DB216F48B5C0084019B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 904D7DB016F48B5C0084019B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		904D7D9216F48B5B0084019B /* Training Center Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Training Center Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D7D9516F48B5B0084019B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		904D7D9716F48B5B0084019B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		904D7D9916F48B5B0084019B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		904D7D9D16F48B5B0084019B /* Training Center Manager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Training Center Manager-Info.plist"; sourceTree = "<group>"; };
+		904D7D9F16F48B5B0084019B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		904D7DA116F48B5B0084019B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		904D7DA316F48B5B0084019B /* Training Center Manager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Training Center Manager-Prefix.pch"; sourceTree = "<group>"; };
+		904D7DA416F48B5B0084019B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		904D7DA516F48B5B0084019B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		904D7DA716F48B5C0084019B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		904D7DA916F48B5C0084019B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		904D7DAB16F48B5C0084019B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		904D7DAD16F48B5C0084019B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		904D7DAE16F48B5C0084019B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		904D7DB116F48B5C0084019B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904D7D8F16F48B5B0084019B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D7D9616F48B5B0084019B /* UIKit.framework in Frameworks */,
+				904D7D9816F48B5B0084019B /* Foundation.framework in Frameworks */,
+				904D7D9A16F48B5B0084019B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		904D7D8916F48B5B0084019B = {
+			isa = PBXGroup;
+			children = (
+				904D7D9B16F48B5B0084019B /* Training Center Manager */,
+				904D7D9416F48B5B0084019B /* Frameworks */,
+				904D7D9316F48B5B0084019B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		904D7D9316F48B5B0084019B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904D7D9216F48B5B0084019B /* Training Center Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		904D7D9416F48B5B0084019B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				904D7D9516F48B5B0084019B /* UIKit.framework */,
+				904D7D9716F48B5B0084019B /* Foundation.framework */,
+				904D7D9916F48B5B0084019B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		904D7D9B16F48B5B0084019B /* Training Center Manager */ = {
+			isa = PBXGroup;
+			children = (
+				904D7DA416F48B5B0084019B /* AppDelegate.h */,
+				904D7DA516F48B5B0084019B /* AppDelegate.m */,
+				904D7DAD16F48B5C0084019B /* ViewController.h */,
+				904D7DAE16F48B5C0084019B /* ViewController.m */,
+				904D7DB016F48B5C0084019B /* ViewController.xib */,
+				904D7D9C16F48B5B0084019B /* Supporting Files */,
+			);
+			path = "Training Center Manager";
+			sourceTree = "<group>";
+		};
+		904D7D9C16F48B5B0084019B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				904D7D9D16F48B5B0084019B /* Training Center Manager-Info.plist */,
+				904D7D9E16F48B5B0084019B /* InfoPlist.strings */,
+				904D7DA116F48B5B0084019B /* main.m */,
+				904D7DA316F48B5B0084019B /* Training Center Manager-Prefix.pch */,
+				904D7DA716F48B5C0084019B /* Default.png */,
+				904D7DA916F48B5C0084019B /* Default@2x.png */,
+				904D7DAB16F48B5C0084019B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		904D7D9116F48B5B0084019B /* Training Center Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904D7DB516F48B5C0084019B /* Build configuration list for PBXNativeTarget "Training Center Manager" */;
+			buildPhases = (
+				904D7D8E16F48B5B0084019B /* Sources */,
+				904D7D8F16F48B5B0084019B /* Frameworks */,
+				904D7D9016F48B5B0084019B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Training Center Manager";
+			productName = "Training Center Manager";
+			productReference = 904D7D9216F48B5B0084019B /* Training Center Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904D7D8A16F48B5B0084019B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "tung nguyen";
+			};
+			buildConfigurationList = 904D7D8D16F48B5B0084019B /* Build configuration list for PBXProject "Training Center Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 904D7D8916F48B5B0084019B;
+			productRefGroup = 904D7D9316F48B5B0084019B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904D7D9116F48B5B0084019B /* Training Center Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904D7D9016F48B5B0084019B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D7DA016F48B5B0084019B /* InfoPlist.strings in Resources */,
+				904D7DA816F48B5C0084019B /* Default.png in Resources */,
+				904D7DAA16F48B5C0084019B /* Default@2x.png in Resources */,
+				904D7DAC16F48B5C0084019B /* Default-568h@2x.png in Resources */,
+				904D7DB216F48B5C0084019B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904D7D8E16F48B5B0084019B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D7DA216F48B5B0084019B /* main.m in Sources */,
+				904D7DA616F48B5B0084019B /* AppDelegate.m in Sources */,
+				904D7DAF16F48B5C0084019B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		904D7D9E16F48B5B0084019B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904D7D9F16F48B5B0084019B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		904D7DB016F48B5C0084019B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904D7DB116F48B5C0084019B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		904D7DB316F48B5C0084019B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		904D7DB416F48B5C0084019B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904D7DB616F48B5C0084019B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Training Center Manager/Training Center Manager-Prefix.pch";
+				INFOPLIST_FILE = "Training Center Manager/Training Center Manager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		904D7DB716F48B5C0084019B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Training Center Manager/Training Center Manager-Prefix.pch";
+				INFOPLIST_FILE = "Training Center Manager/Training Center Manager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904D7D8D16F48B5B0084019B /* Build configuration list for PBXProject "Training Center Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D7DB316F48B5C0084019B /* Debug */,
+				904D7DB416F48B5C0084019B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904D7DB516F48B5C0084019B /* Build configuration list for PBXNativeTarget "Training Center Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D7DB616F48B5C0084019B /* Debug */,
+				904D7DB716F48B5C0084019B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 904D7D8A16F48B5B0084019B /* Project object */;
+}
