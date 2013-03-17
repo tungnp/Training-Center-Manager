@@ -1,13 +1,14 @@
-lý//
-//  ViewController.h
+//
+//  Teacher.h
 //  Training Center Manager
 //
 //  Created by stevie nguyen on 3/16/13.
 //  Copyright (c) 2013 tung nguyen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Person.h"
+@interface Teacher : Person
 
-@interface ViewController : UIViewController
+@property (nonatomic, strong) NSMutableArray* trainingClass;
 
 @end

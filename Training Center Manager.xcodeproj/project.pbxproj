@@ -18,6 +18,15 @@
 		904D7DAC16F48B5C0084019B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 904D7DAB16F48B5C0084019B /* Default-568h@2x.png */; };
 		904D7DAF16F48B5C0084019B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D7DAE16F48B5C0084019B /* ViewController.m */; };
 		904D7DB216F48B5C0084019B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 904D7DB016F48B5C0084019B /* ViewController.xib */; };
+		904D7DBA16F48B890084019B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D7DB916F48B890084019B /* Person.m */; };
+		904D7DBD16F48B9D0084019B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D7DBC16F48B9D0084019B /* Student.m */; };
+		904D7DC016F48BA80084019B /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D7DBF16F48BA80084019B /* Teacher.m */; };
+		904D7DC616F48EA30084019B /* TrainingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D7DC516F48EA30084019B /* TrainingClass.m */; };
+		904D7DC916F490C50084019B /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D7DC816F490C50084019B /* DataManager.m */; };
+		90C2111016F4AC2100EB7BC0 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C2110F16F4AC2100EB7BC0 /* FileManager.m */; };
+		90C2111216F4CF7E00EB7BC0 /* student.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90C2111116F4CF7E00EB7BC0 /* student.plist */; };
+		90C2111416F4D34B00EB7BC0 /* teacher.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90C2111316F4D34B00EB7BC0 /* teacher.plist */; };
+		90C2111616F4D35C00EB7BC0 /* class.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90C2111516F4D35C00EB7BC0 /* class.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,21 @@
 		904D7DAD16F48B5C0084019B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		904D7DAE16F48B5C0084019B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		904D7DB116F48B5C0084019B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		904D7DB816F48B890084019B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		904D7DB916F48B890084019B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		904D7DBB16F48B9D0084019B /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		904D7DBC16F48B9D0084019B /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		904D7DBE16F48BA80084019B /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		904D7DBF16F48BA80084019B /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		904D7DC416F48EA30084019B /* TrainingClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingClass.h; sourceTree = "<group>"; };
+		904D7DC516F48EA30084019B /* TrainingClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingClass.m; sourceTree = "<group>"; };
+		904D7DC716F490C50084019B /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		904D7DC816F490C50084019B /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		90C2110E16F4AC2100EB7BC0 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		90C2110F16F4AC2100EB7BC0 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		90C2111116F4CF7E00EB7BC0 /* student.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = student.plist; sourceTree = "<group>"; };
+		90C2111316F4D34B00EB7BC0 /* teacher.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = teacher.plist; sourceTree = "<group>"; };
+		90C2111516F4D35C00EB7BC0 /* class.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = class.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +112,21 @@
 				904D7DAD16F48B5C0084019B /* ViewController.h */,
 				904D7DAE16F48B5C0084019B /* ViewController.m */,
 				904D7DB016F48B5C0084019B /* ViewController.xib */,
+				904D7DB816F48B890084019B /* Person.h */,
+				904D7DB916F48B890084019B /* Person.m */,
+				904D7DBB16F48B9D0084019B /* Student.h */,
+				904D7DBC16F48B9D0084019B /* Student.m */,
+				904D7DBE16F48BA80084019B /* Teacher.h */,
+				904D7DBF16F48BA80084019B /* Teacher.m */,
+				904D7DC416F48EA30084019B /* TrainingClass.h */,
+				904D7DC516F48EA30084019B /* TrainingClass.m */,
+				904D7DC716F490C50084019B /* DataManager.h */,
+				904D7DC816F490C50084019B /* DataManager.m */,
+				90C2110E16F4AC2100EB7BC0 /* FileManager.h */,
+				90C2110F16F4AC2100EB7BC0 /* FileManager.m */,
+				90C2111116F4CF7E00EB7BC0 /* student.plist */,
+				90C2111316F4D34B00EB7BC0 /* teacher.plist */,
+				90C2111516F4D35C00EB7BC0 /* class.plist */,
 				904D7D9C16F48B5B0084019B /* Supporting Files */,
 			);
 			path = "Training Center Manager";
@@ -163,6 +202,9 @@
 				904D7DAA16F48B5C0084019B /* Default@2x.png in Resources */,
 				904D7DAC16F48B5C0084019B /* Default-568h@2x.png in Resources */,
 				904D7DB216F48B5C0084019B /* ViewController.xib in Resources */,
+				90C2111216F4CF7E00EB7BC0 /* student.plist in Resources */,
+				90C2111416F4D34B00EB7BC0 /* teacher.plist in Resources */,
+				90C2111616F4D35C00EB7BC0 /* class.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +218,12 @@
 				904D7DA216F48B5B0084019B /* main.m in Sources */,
 				904D7DA616F48B5B0084019B /* AppDelegate.m in Sources */,
 				904D7DAF16F48B5C0084019B /* ViewController.m in Sources */,
+				904D7DBA16F48B890084019B /* Person.m in Sources */,
+				904D7DBD16F48B9D0084019B /* Student.m in Sources */,
+				904D7DC016F48BA80084019B /* Teacher.m in Sources */,
+				904D7DC616F48EA30084019B /* TrainingClass.m in Sources */,
+				904D7DC916F490C50084019B /* DataManager.m in Sources */,
+				90C2111016F4AC2100EB7BC0 /* FileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +346,7 @@
 				904D7DB716F48B5C0084019B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Nguyen Phu Tung</string>
+		<key>iD</key>
+		<string>031673657</string>
+		<key>phone</key>
+		<string>0972185692</string>
+		<key>email</key>
+		<string>tungnp92@gmail.com</string>
+		<key>trainingClass</key>
+		<string>iOS 11</string>
+		<key>score</key>
+		<integer>85</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pham Phu Hoan</string>
+		<key>iD</key>
+		<string>03947473</string>
+		<key>phone</key>
+		<string>12321434</string>
+		<key>email</key>
+		<string>hoanbk02@gmail.com</string>
+		<key>trainingClass</key>
+		<string>iOS 11</string>
+		<key>score</key>
+		<integer>66</integer>
+	</dict>
+</array>
+</plist>
